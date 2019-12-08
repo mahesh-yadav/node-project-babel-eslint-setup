@@ -1,0 +1,17 @@
+{
+  "name": "rediscover-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "eslint": "^6.7.2"
+  },
+  "scripts": {
+    "compile": "babel --watch src --out-dir dist",
+    "start": "node dist/index.js"
+  }
+}
